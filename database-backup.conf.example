@@ -1,0 +1,13 @@
+# connection to database
+DB_HOST="ip-address or hostname"
+DB_USERNAME="username for database with needed privileges"
+DB_PASSWORD="password for database user"
+
+# path for backup files
+BACKUP_PATH="/path/to/folder"
+
+# path to mysql/mariadb executeable. change only if needed
+MYSQL="/usr/bin/mysql"
+
+#use telegram-notify
+TELEGRAM=true
