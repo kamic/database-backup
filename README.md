@@ -1,14 +1,14 @@
 # database-backup
  Wrapper script for database backup
 
- ##Disclaimer
+## Disclaimer
  This software is not production ready and only for personal use for somebody who understands the script and accepts the involved risks.
  There is no safety/sanity check or whatsoever!
 
- ## Requirements
+## Requirements
  * optional requires [telegram-notify](http://www.bernaerts-nicolas.fr/linux/75-debian/351-debian-send-telegram-notification)
 
- ## Installation
+## Installation
  1. Clone repo
  2. Rename `database-dump.conf.example` to `database-dump.conf`
  3. Make changes according to your liking/needs
@@ -25,6 +25,7 @@
  10. have fun
 
 ## Usage for database-dump as standalone script
+```
 database-dump [Options]
 
 Options:
@@ -38,3 +39,4 @@ Options:
               use like -p <password>
   -f        path in which dump should be written.
               use like -f </path/to/file>"
+```
