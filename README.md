@@ -12,17 +12,20 @@
  1. Clone repo
  2. Rename `database-dump.conf.example` to `database-dump.conf`
  3. Make changes according to your liking/needs
- 4. place as `/etc/database-dump.conf`
- 5. Rename `database-backup.conf.example` to `database-backup.conf`
- 6. Make changes according to your liking/needs
- 7. place as `/etc/database-backup.conf`
- 8. rename `database-dump.sh` to `database-dump` and make it executeable
+ 4. Rename `database-backup.conf.example` to `database-backup.conf`
+ 5. Make changes according to your liking/needs
+ 6. use install.sh for installation under /usr/local/sbin/ or
 
-     `$ chmod +x /path/to/database-dump`
- 9. rename `database-backup.sh` to `database-backup` and make it executeable
+    1. place `database-dump.conf` as `/etc/database-dump.conf`
+    2. place `database-backup.conf` as `/etc/database-backup.conf`
+    3. rename `database-dump.sh` to `database-dump` and make it executeable
 
-     `$ chmod +x /path/to/database-backup`
- 10. have fun
+        `$ chmod +x /path/to/database-dump`
+    4. rename `database-backup.sh` to `database-backup` and make it executeable
+
+        `$ chmod +x /path/to/database-backup`
+    5. move executeables to desired path
+ 7. have fun
 
 ## Usage for database-dump as standalone script
 ```
