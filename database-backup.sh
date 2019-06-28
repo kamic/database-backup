@@ -67,11 +67,11 @@ move_dumps() {
 rotate_dumps() {
   cd /$BACKUP_PATH
 
-  bkup_files="$(find -maxdepth 1 -mtime +31 -type f | wc -l)"
+  bkup_files=$(find -maxdepth 1 -mtime +31 -type f | wc -l)
 
   info "deleting all dumps older than 31 days ..."
 
-  if ($bkup_files > 14); then
+  if (($bkup_files > 14)); then
     info "found dumps to delete ..."
     result="$(find -maxdepth 1 -mtime +31 -type f -delete)"
     info "delete returned: $result"
