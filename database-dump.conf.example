@@ -1,0 +1,11 @@
+# path to mysql/mariadb executeable. change only if needed
+MYSQL="/usr/bin/mysql"
+
+# path to mysql/mariadb dump executeable. change only if needed
+MYSQLDUMP="/usr/bin/mysqldump"
+
+# define the postfix of the dump-files
+DUMP_POSTFIX=$(date +"%Y%m%d_%H%M%S")
+
+#use telegram-notify
+TELEGRAM=true
