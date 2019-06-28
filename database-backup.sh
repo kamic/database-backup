@@ -19,7 +19,7 @@ readonly PROGRAM_NAME=$(basename $0)
 readonly PROGRAM_VERSION="0.6"
 readonly PROGRAM_DATE="20.06.2019"
 
-source /etc/database-dump.conf
+source /etc/database-backup.conf
 MYSQL="${MYSQL:-/usr/bin/mysql}"
 TELEGRAM="${TELEGRAM:-false}"
 
