@@ -12,7 +12,7 @@
 
 #set -x
 
-set -euo pipefail
+#set -euo pipefail
 IFS=$'\n\t'
 
 readonly PROGRAM_NAME=$(basename $0)
